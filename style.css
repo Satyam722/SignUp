@@ -1,0 +1,82 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* FORM CONTAINER */
+.container {
+  width: 600px;
+  padding: 40px 60px;
+  background: black;
+  border: 1px solid #0057ff;
+}
+
+.container h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* INPUT FIELDS */
+label {
+  color: #ccc;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px 0;
+  margin: 5px 0 20px 0;
+  background: black;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: white;
+  outline: none;
+}
+
+/* RADIO + CHECKBOX */
+.radio-group,
+.checkbox-group {
+  margin: 15px 0;
+}
+
+.radio-group label,
+.checkbox-group label {
+  color: #ccc;
+  margin-right: 20px;
+}
+
+.checkbox-group input {
+  margin-right: 5px;
+}
+
+/* SUBMIT BUTTON */
+button {
+  margin-top: 20px;
+  width: 120px;
+  padding: 10px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
